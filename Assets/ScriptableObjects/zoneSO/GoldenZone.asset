@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25fcd307b20c964a871a6c45f6d6411, type: 3}
+  m_Name: GoldenZone
+  m_EditorClassIdentifier: Assembly-CSharp::ZoneData
+  wheelSprite: {fileID: 5770997025872212153, guid: ece3ccec9ab1a1f44910cb432b17f145, type: 3}
+  indicatorSprite: {fileID: 8294000708589155680, guid: ffe9b69b4ae47eb4cb46187cb0bf1b0d, type: 3}
+  hasBomb: 0
+  bombData: {fileID: 11400000, guid: c79e67c78d080ee4c9f7a2f135c73fa0, type: 2}
+  availableRewards:
+  - {fileID: 11400000, guid: d5f09428a719ea548b6e34a7ddb9196e, type: 2}
+  - {fileID: 11400000, guid: 5e28b02b1e3fe3645bf66f06ac710ae7, type: 2}
+  - {fileID: 11400000, guid: 051b554e71b48d244b66caacee7319cb, type: 2}
+  - {fileID: 11400000, guid: 5f1f4bdcc9125624e9432c3890cb2e80, type: 2}
+  - {fileID: 11400000, guid: eee3b6aa81024394a94576224f9dac86, type: 2}
+  - {fileID: 11400000, guid: 0a20c344736510745abbdaffe5696ad8, type: 2}
+  - {fileID: 11400000, guid: 1f310d81bb80a5940b5f4c4377361d17, type: 2}
+  - {fileID: 11400000, guid: 6b4d6a2a1ac402543a4f5f025ba281c1, type: 2}
+  - {fileID: 11400000, guid: ff60a73738c6f0e498adccd62d063c1b, type: 2}

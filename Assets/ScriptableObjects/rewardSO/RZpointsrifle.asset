@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71d50eb17b4e7947b3703838f0a5e83, type: 3}
+  m_Name: RZpointsrifle
+  m_EditorClassIdentifier: Assembly-CSharp::CollectibleReward
+  itemId: 29
+  amount: 40
+  icon: {fileID: -1983989049330747494, guid: c831316e09b41b144be7359b93398c13, type: 3}
+  rewardType: 4

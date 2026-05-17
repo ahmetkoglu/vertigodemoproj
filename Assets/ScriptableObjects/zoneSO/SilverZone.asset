@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25fcd307b20c964a871a6c45f6d6411, type: 3}
+  m_Name: SilverZone
+  m_EditorClassIdentifier: Assembly-CSharp::ZoneData
+  wheelSprite: {fileID: -4250264824657568362, guid: dc1744463eec08c49a85fc70103264eb, type: 3}
+  indicatorSprite: {fileID: 2528496851094761378, guid: 83f6933574ac9e24ab3c2f729faaf340, type: 3}
+  hasBomb: 0
+  bombData: {fileID: 11400000, guid: c79e67c78d080ee4c9f7a2f135c73fa0, type: 2}
+  availableRewards:
+  - {fileID: 11400000, guid: 832d02642a571c64689823687ee88908, type: 2}
+  - {fileID: 11400000, guid: ec22d5f4d1a053a43a08cad4e529b597, type: 2}
+  - {fileID: 11400000, guid: bc9c058c0d1a6e44d8dd7c1356dea1c0, type: 2}
+  - {fileID: 11400000, guid: 508cb6694a1493b44ac8c308a1ba644f, type: 2}
+  - {fileID: 11400000, guid: 616a5713696154644b3bd1e23908e59c, type: 2}
+  - {fileID: 11400000, guid: cd4392f28e48b1645a0bb0e0b049f797, type: 2}
+  - {fileID: 11400000, guid: 48d0013f371dfa745a2690c59024fc32, type: 2}
+  - {fileID: 11400000, guid: 7ac59a1c548998142b85fa192500152c, type: 2}
+  - {fileID: 11400000, guid: c12c51f7b20e1f142af683bfe48bb70e, type: 2}
+  - {fileID: 11400000, guid: 7b4ead5e13c2c1f429272d906c47a771, type: 2}
+  - {fileID: 11400000, guid: d781c978c59af9b4ab381b58f241b098, type: 2}
+  - {fileID: 11400000, guid: 13dc32ecefd61724bbdae6c4523f97e2, type: 2}
+  - {fileID: 11400000, guid: 9580ceaacdfae2140abccdac5a51f734, type: 2}
+  - {fileID: 11400000, guid: a53098e25a0516d48903b3e1c51a92c4, type: 2}
+  - {fileID: 11400000, guid: cd4392f28e48b1645a0bb0e0b049f797, type: 2}
+  - {fileID: 11400000, guid: 13dc32ecefd61724bbdae6c4523f97e2, type: 2}
+  - {fileID: 11400000, guid: 0bb7045ece83f6049a9f55ba065a2001, type: 2}

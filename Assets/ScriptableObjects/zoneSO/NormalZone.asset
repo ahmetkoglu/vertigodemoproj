@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25fcd307b20c964a871a6c45f6d6411, type: 3}
+  m_Name: NormalZone
+  m_EditorClassIdentifier: Assembly-CSharp::ZoneData
+  wheelSprite: {fileID: -7416167051008218582, guid: 7d9ba44ba95e28648875d56c97c2dbba, type: 3}
+  indicatorSprite: {fileID: 5759410588988491854, guid: 9a817257ca8372e478db2f0350b1f1d6, type: 3}
+  hasBomb: 1
+  bombData: {fileID: 11400000, guid: c79e67c78d080ee4c9f7a2f135c73fa0, type: 2}
+  availableRewards:
+  - {fileID: 11400000, guid: d7dc2729542fa6d4bbd0b22dd3c786af, type: 2}
+  - {fileID: 11400000, guid: 304ddf1918aa3f147ac77fab452f10cd, type: 2}
+  - {fileID: 11400000, guid: bdab2e70d004dc2459741286dc8cef59, type: 2}
+  - {fileID: 11400000, guid: 9b2d51f7bd2b89b4286cbc6fd76bd5eb, type: 2}
+  - {fileID: 11400000, guid: 3424f81267d1e604988e7efe63ad2e14, type: 2}
+  - {fileID: 11400000, guid: 52baddc933b2042429e9c2c9d41b3ff5, type: 2}
+  - {fileID: 11400000, guid: 449503ab1cf848344b6ac36e7a221b4f, type: 2}
+  - {fileID: 11400000, guid: da85f1cb15489514bb5a86c07a3db3f6, type: 2}
+  - {fileID: 11400000, guid: cd4392f28e48b1645a0bb0e0b049f797, type: 2}
+  - {fileID: 11400000, guid: 940a375cd8a95954f9945d0c2ad2cdf6, type: 2}
+  - {fileID: 11400000, guid: dc2abd63aacea4742868cb3d9b42f088, type: 2}
+  - {fileID: 11400000, guid: 31f759514b0f3b3418747c2970bacca0, type: 2}
+  - {fileID: 11400000, guid: 01cac466929157841933c12fbf00b693, type: 2}
+  - {fileID: 11400000, guid: 4a01ddc5c24cf0744a1fe11acc00cd3e, type: 2}
+  - {fileID: 11400000, guid: f391cc329bba44e4da13b4995ecc99c0, type: 2}
+  - {fileID: 11400000, guid: 872a88e3ab8c22645befbb148e4d45d4, type: 2}
+  - {fileID: 11400000, guid: 832d02642a571c64689823687ee88908, type: 2}
+  - {fileID: 11400000, guid: 0bb7045ece83f6049a9f55ba065a2001, type: 2}
