@@ -1,0 +1,21 @@
+{
+    "name": "WheelGame.UI.Core",
+    "rootNamespace": "",
+    "references": [
+        "WheelGame.Contracts",
+        "WheelGame.UI.Components",
+        "WheelGame.UI.Effects",
+        "DOTween.Modules.UI",
+        "Unity.TextMeshPro",
+        "Unity.ugui"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,20 @@
+{
+    "name": "WheelGame.Gameplay.Core",
+    "rootNamespace": "",
+    "references": [
+        "WheelGame.Contracts",
+        "WheelGame.UI.Core",
+        "WheelGame.Gameplay.Progression",
+        "WheelGame.Gameplay.Rewards",
+        "WheelGame.Gameplay.Wheel"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

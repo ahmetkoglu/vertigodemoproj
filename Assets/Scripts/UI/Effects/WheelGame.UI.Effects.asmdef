@@ -1,0 +1,20 @@
+{
+    "name": "WheelGame.UI.Effects",
+    "rootNamespace": "",
+    "references": [
+        "WheelGame.Contracts",
+        "WheelGame.UI.Pooling",
+        "DOTween.Modules.UI",
+        "Unity.TextMeshPro",
+        "Unity.ugui"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

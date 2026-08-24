@@ -1,0 +1,27 @@
+{
+    "name": "WheelGame.PlayMode.Tests",
+    "rootNamespace": "",
+    "references": [
+        "WheelGame.Contracts",
+        "WheelGame.Gameplay.Core",
+        "WheelGame.Gameplay.Progression",
+        "WheelGame.Gameplay.Rewards",
+        "WheelGame.Gameplay.Wheel",
+        "WheelGame.UI.Core",
+        "WheelGame.UI.Components",
+        "WheelGame.UI.Effects",
+        "Unity.ugui"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

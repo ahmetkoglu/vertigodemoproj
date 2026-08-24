@@ -1,0 +1,22 @@
+{
+    "name": "WheelGame.Tools.Editor",
+    "rootNamespace": "",
+    "references": [
+        "WheelGame.Gameplay.Core",
+        "WheelGame.Gameplay.Progression",
+        "WheelGame.Gameplay.Rewards",
+        "WheelGame.Gameplay.Wheel",
+        "WheelGame.UI.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

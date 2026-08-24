@@ -1532,6 +1532,7 @@ MonoBehaviour:
   exitPopupBox: {fileID: 1094387157}
   mainCanvas: {fileID: 1127149461}
   inventoryTarget: {fileID: 1811575925}
+  uiEffectManager: {fileID: 1011896213}
   inventoryContainer: {fileID: 1811575925}
   inventoryItemPrefab: {fileID: 7159250164162430356, guid: d1c56c6ae207d104d982693a24c65c64, type: 3}
   levelContainer: {fileID: 93249061}
@@ -1584,6 +1585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIEffectManager
   flashVfxPrefab: {fileID: 8357829826335608553, guid: 4ca7032511338254d98245cea1baf808, type: 3}
+  iconPool: {fileID: 1011896214}
 --- !u!114 &1011896214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1593,9 +1595,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1011896207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aca0c5ff7979a724f85167209721a006, type: 3}
+  m_Script: {fileID: 11500000, guid: 4255679ca352bd84b8713cbabb27c17e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IconPool
+  m_EditorClassIdentifier: 
   iconPrefab: {fileID: 6372995330349213170, guid: e1f3924286eb79e428e02ca63430e866, type: 3}
   initialPoolSize: 10
 --- !u!1 &1030025760
@@ -3902,7 +3904,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 50
 --- !u!222 &2004586233
 CanvasRenderer:
   m_ObjectHideFlags: 0
