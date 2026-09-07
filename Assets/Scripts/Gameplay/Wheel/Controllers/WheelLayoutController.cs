@@ -9,11 +9,15 @@ namespace WheelGame.Gameplay.Wheel.Controllers
     {
         private readonly RectTransform _wheelContainer;
         private readonly WheelSliceUI _slicePrefab;
+        private readonly float _sliceAngleOffset;
+        private readonly float[] _perSliceAngleOffsets;
 
-        public WheelLayoutController(RectTransform wheelContainer, WheelSliceUI slicePrefab)
+        public WheelLayoutController(RectTransform wheelContainer, WheelSliceUI slicePrefab, float sliceAngleOffset, float[] perSliceAngleOffsets)
         {
             _wheelContainer = wheelContainer;
             _slicePrefab = slicePrefab;
+            _sliceAngleOffset = sliceAngleOffset;
+            _perSliceAngleOffsets = perSliceAngleOffsets;
         }
 
         public int BuildSlices(List<IRewardAction> rewards)
@@ -31,10 +35,22 @@ namespace WheelGame.Gameplay.Wheel.Controllers
             {
                 WheelSliceUI newSlice = Object.Instantiate(_slicePrefab, _wheelContainer);
                 newSlice.Configure(rewards[i]);
-                newSlice.transform.localEulerAngles = new Vector3(0, 0, -i * sliceAngle);
+                float perSliceOffset = GetPerSliceAngleOffset(i);
+                float visualAngle = (i * sliceAngle) + _sliceAngleOffset + perSliceOffset;
+                newSlice.transform.localEulerAngles = new Vector3(0, 0, -visualAngle);
             }
 
             return numberOfSlices;
+        }
+
+        private float GetPerSliceAngleOffset(int sliceIndex)
+        {
+            if (_perSliceAngleOffsets == null || sliceIndex < 0 || sliceIndex >= _perSliceAngleOffsets.Length)
+            {
+                return 0f;
+            }
+
+            return _perSliceAngleOffsets[sliceIndex];
         }
     }
 }

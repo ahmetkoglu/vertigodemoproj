@@ -35,7 +35,9 @@ public class WheelManager : MonoBehaviour, IWheelService
     [Header("Mechanical Physics Tuning")]
     [SerializeField] private int numberOfSlices = 8;
     [SerializeField] private int minSpins = 5;
-    [SerializeField] private float spinDuration = 3f;
+    [SerializeField] private float spinDuration = 4f;
+    [SerializeField] private float sliceAngleOffset = 0f;
+    [SerializeField] private float[] perSliceAngleOffsets = new float[8];
 
     #endregion
 
@@ -55,7 +57,7 @@ public class WheelManager : MonoBehaviour, IWheelService
     {
         _wheelAuraController = new WheelAuraController(wheelGlowImage);
         _wheelVisualController = new WheelVisualController(wheelBaseImage, indicatorImage, _wheelAuraController);
-        _wheelLayoutController = new WheelLayoutController(wheelContainer, slicePrefab);
+        _wheelLayoutController = new WheelLayoutController(wheelContainer, slicePrefab, sliceAngleOffset, perSliceAngleOffsets);
         _wheelSpinController = new WheelSpinController(wheelContainer, minSpins, spinDuration);
         _wheelPositionResolver = new WheelPositionResolver(wheelContainer);
     }

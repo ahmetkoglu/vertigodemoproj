@@ -26,7 +26,7 @@ namespace WheelGame.Gameplay.Wheel.Controllers
             _wheelContainer.localEulerAngles = Vector3.zero;
 
             _wheelContainer.DORotate(new Vector3(0, 0, -targetAngle), _spinDuration, RotateMode.FastBeyond360)
-                .SetEase(Ease.OutElastic, 1.5f, 1f)
+                .SetEase(Ease.OutCubic)
                 .OnComplete(() =>
                 {
                     Debug.Log($"[WheelSpinController] Rotation completed. Landed Index Marker: {resultIndex}");

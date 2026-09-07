@@ -1661,7 +1661,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -7416167051008218582, guid: 7d9ba44ba95e28648875d56c97c2dbba, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1687,8 +1687,18 @@ MonoBehaviour:
   wheelContainer: {fileID: 1030025761}
   slicePrefab: {fileID: 792244947340608691, guid: 01160dafb63d404479fa20590e26f01d, type: 3}
   numberOfSlices: 8
-  minSpins: 5
-  spinDuration: 3
+  minSpins: 3
+  spinDuration: 4
+  sliceAngleOffset: 0
+  perSliceAngleOffsets:
+  - 0
+  - -3
+  - -2
+  - -3
+  - 0
+  - 3
+  - 2
+  - 3
 --- !u!222 &1030025764
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4088,7 +4098,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 2594531524019233851, guid: 6eeac3e7c98197443bef33927aa28ae8, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -4103,7 +4113,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2246369248808071769}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4114,7 +4124,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 900, y: 900}
+  m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4764348790527335006
 CanvasRenderer:
